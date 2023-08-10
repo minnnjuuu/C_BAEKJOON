@@ -5,7 +5,7 @@
 
 int main(void) {
 	int* score_2;
-	score_2 = malloc(8 * sizeof(int));
+	score_2 = (int*)malloc(8 * sizeof(int));
 	for (int i = 0; i < 8; i++)
 		scanf("%d", &score_2[i]);
 	int min = 100;
